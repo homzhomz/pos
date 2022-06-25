@@ -108,7 +108,8 @@ body {
   }
   
   .sc_agenda {
-    background-color: #f8f8f8;
+    background-color: #d6d4d4;
+    height: 250px;
 }
 
 .sc_agenda .tit {
@@ -117,5 +118,17 @@ body {
   text-align: center;
   font-size: 200%;
   line-height: 1.4;
+  margin-bottom: 2%;
+}
+
+
+.sc_title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.table{
+
   margin-bottom: 10%;
 }
