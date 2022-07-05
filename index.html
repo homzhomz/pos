@@ -21,6 +21,32 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./scss/all.css">
 
+<!--     
+<script>
+  function submitHandler(){
+
+      var to = "594homhom@gmail.com";
+  //寫死的傳送對象 就是要傳送的信箱，不會顯示在網頁上
+
+
+      var subject = subText.value;
+  //讀取ID為 subText物件中的值，我們在上方的input物件已經先設好這個id了
+
+
+  //把user填的資料都塞到 mail body 中
+      var body = ""+'%0A%0A%0A';
+  //%0A是換行 換了三行
+          body += "From："+nameText.value+'%0A';
+          body += "Email："+emailText.value+'%0A';
+          body += "Tel："+telText.value;
+  //傳送的主要程式碼
+      mailTo.href="mailto:"+to+"?subject="+subject+"&body="+body;
+      mailTo.click();
+  //這裡我們藉由將先宣告的a標籤超連結地址改為”mailto:”，瀏覽器就會幫我們打開信箱的預設應用程式，並把所有使用者輸入好的資訊帶進去，接著我們讓a標籤觸發click()，以此觸發這個超連結
+  }
+</script> -->
+  
+
 </head>
 <body>
     
@@ -94,7 +120,7 @@
 
 
     <div class="sc_agenda main_sc" id="agenda">
-        <div class="tit">方案說明</div>   
+        <div class="tit">方  案  說  明</div>   
 
 
 
@@ -119,18 +145,62 @@
               <td class="table-dark"><font color="red">$7999</font></td>
             </tr>
           </tbody>
-        </table>
-      
-      
-
-
+        </table>    
     </div>
 
+<!-- </br></br></br></br></br></br> -->
+
+
+<div class="connection">
+  <h2>聯   絡   我   們</h3>
+</div>
+
+
+<!-- <form method="GET" action="594homhom@gmail.com" enctype="text/plain">
+  <div>Subject</div>
+  <input type="text" name="subject" />
+
+  <div>Message</div>
+  <textarea name="body"></textarea>
+
+  <br/>
+  <input type="submit" value="Send" />
+</form> -->
 
 
 
+ <!-- <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div> -->
 
 
+<!-- <div class="con conBiz">
+
+</div>
+                -->
+
+  <div class="con conBiz">
+    <div class="bg">
+      
+      <div class="block">
+        <h2 class="title">需要企業客製版本?</h2>
+        <h3 class="subTitle">請留下你的Email，<span>服務團隊將盡快與你聯繫</span></h3>
+    
+        <form data-form-output="form-output-global" data-form-type="contact" method="post" onsubmit="return false;">
+          <div class="emailBox">
+            <input id="contact-email" type="text" name="email" placeholder="example@chatisfy.com">
+            <input class="mainBtn" onclick="contacts()" type="submit" name="請跟我聯繫" value="請跟我聯繫">
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
 
 </body>
 </html>
