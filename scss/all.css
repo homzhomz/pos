@@ -183,3 +183,36 @@ body {
   color: #fff;
   font-weight: 400;
 }
+
+
+#messenger {
+  position: fixed;  /*絕對定位 右下角*/
+  bottom: 15px; /* 與下方的距離, 也可改為百分比, 即為距離螢幕下方的百分比 */
+  right: 15px; /* 與右方的距離 */
+  width: 60px; /* 按鈕寬度 */
+  height: 60px; /* 按鈕高度 */
+  opacity: 0.8; /* 按鈕原始透明度 */
+  z-index: 10;
+  cursor: pointer;
+  }
+  #messenger:hover { /* 滑鼠經過按鈕時 */
+  opacity: 1; /* 透明度 */
+  }
+
+  .messenger_2{
+    bottom: 15px; /* 與下方的距離, 也可改為百分比, 即為距離螢幕下方的百分比 */
+    right: 15px; /* 與右方的距離 */
+    /*width:100px; /* 按鈕寬度 */
+    /*height: 100px; /* 按鈕高度 */
+    width: 100%;
+    height:auto;
+    opacity: 0.8; /* 按鈕原始透明度 */
+    z-index: 10;
+    cursor: pointer;
+
+  }
+
+  .messenger_2:hover { /* 滑鼠經過按鈕時 */
+    opacity: 1; /* 透明度 */
+    }
+ 
