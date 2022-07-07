@@ -145,7 +145,7 @@ body {
 .con{
   background-image: url(../image/contact_bg.jpg);
   position: relative;
-  height: 40vw;
+  /* height: 40vw; */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -161,6 +161,7 @@ body {
   top: 0;
   left: 0;
   background: url(../image/mask_slash80p.png)repeat;
+  
 }
 
 .conBiz .block {
@@ -223,3 +224,5 @@ body {
       margin: 24px 0;
       color: #fff;
     }
+
+   
