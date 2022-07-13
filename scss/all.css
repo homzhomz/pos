@@ -137,7 +137,7 @@ body {
   color:#0d5dd6;
   font-weight:bold;
   text-align: center;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
   font-size: 200%;
 }
 
@@ -149,7 +149,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  margin-bottom: 5%;
+  /* margin-bottom: 5%; */
 }
 
 
@@ -226,3 +226,4 @@ body {
     }
 
    
+
