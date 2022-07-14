@@ -225,5 +225,10 @@ body {
       color: #fff;
     }
 
-   
+    .hover-overlay { /* 滑鼠經過按鈕時 */
+      opacity: 0.8; /* 按鈕原始透明度 */
+      }
 
+    .hover-overlay:hover { /* 滑鼠經過按鈕時 */
+      opacity: 1; /* 透明度 */
+      }
