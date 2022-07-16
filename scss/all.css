@@ -234,11 +234,13 @@ body {
     .hover-overlay:hover { /* 滑鼠經過按鈕時  */
       opacity: 1; /* 透明度 */
       }
-      
+
       .com_image{
         mix-blend-mode: multiply;
       }
 
       .com_image2{
-        mix-blend-mode: screen;
+        /* mix-blend-mode: screen; */
+        opacity:0.8;
+        filter: drop-shadow(8px 8px 10px rgb(116, 188, 230));
       }
