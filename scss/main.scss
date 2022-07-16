@@ -1,3 +1,6 @@
+@import "../scss/scss.scss";
+
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -47,21 +50,17 @@ table {
 	border-spacing: 0;
 }
 
-/*css reset*/
-
-
- /* * {
-    outline: 1px solid #000;
-  }   */
 
 
 
-body {
+  body {
     font-family: 'Noto Sans TC', sans-serif;
 }
 
 
-  .background  {
+
+
+.background  {
     background-image: url(../image/kv_bg.jpg);
     position: relative;
     /* height: 40vw; */
@@ -89,7 +88,7 @@ body {
     display: flex;
     padding-top: 8%;
     padding-left: 8%;
-    color: rgb(252, 248, 240);
+    color: #fff;
     font-weight:bold;
 
   }
@@ -240,3 +239,18 @@ body {
 
         mix-blend-mode: multiply;
       }
+
+      
+.title {
+    @include font-size(4rem);
+  }
+
+  .title {
+    font-size: calc(1.525rem + 3.3vw);
+  }
+  
+  @media (min-width: 1200px) {
+    .title {
+      font-size: 4rem;
+    }
+  }

@@ -1,0 +1,247 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.background {
+  background-image: url(../image/kv_bg.jpg);
+  position: relative;
+  /* height: 40vw; */
+  background-color: #030542;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 5%;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: orange;
+}
+
+h1 {
+  color: #fff;
+}
+
+.banner {
+  display: flex;
+  padding-top: 8%;
+  padding-left: 8%;
+  color: #fff;
+  font-weight: bold;
+}
+
+.product {
+  color: #0d5dd6;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1%;
+  font-size: 200%;
+}
+
+.carousel {
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 5%;
+}
+
+.sc_agenda {
+  background-color: #d6d4d4;
+  height: 250px;
+}
+
+.sc_agenda .tit {
+  color: #0d5dd6;
+  font-weight: 700;
+  text-align: center;
+  font-size: 200%;
+  line-height: 1.4;
+  margin-bottom: 2%;
+}
+
+.sc_title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+/* .table{
+  margin-bottom: 30px;
+} */
+.connection {
+  margin-top: 5%;
+  color: #0d5dd6;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1%;
+  font-size: 200%;
+}
+
+.con {
+  background-image: url(../image/contact_bg.jpg);
+  position: relative;
+  /* height: 40vw; */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  /* margin-bottom: 5%; */
+}
+
+.conBiz .bg:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(../image/mask_slash80p.png) repeat;
+}
+
+.conBiz .block {
+  position: relative;
+  z-index: 2;
+}
+
+.conBiz {
+  position: relative;
+  text-align: center;
+}
+
+.conBiz .title {
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 0.3em;
+}
+
+.conBiz .subTitle {
+  font-size: 1.5em;
+  margin-bottom: 3.5em;
+  color: #fff;
+  font-weight: 400;
+}
+
+#messenger {
+  position: fixed; /*絕對定位 右下角*/
+  bottom: 15px; /* 與下方的距離, 也可改為百分比, 即為距離螢幕下方的百分比 */
+  right: 15px; /* 與右方的距離 */
+  width: 60px; /* 按鈕寬度 */
+  height: 60px; /* 按鈕高度 */
+  opacity: 0.8; /* 按鈕原始透明度 */
+  z-index: 10;
+  cursor: pointer;
+}
+
+#messenger:hover { /* 滑鼠經過按鈕時 */
+  opacity: 1; /* 透明度 */
+}
+
+.messenger_2 {
+  bottom: 15px; /* 與下方的距離, 也可改為百分比, 即為距離螢幕下方的百分比 */
+  right: 15px; /* 與右方的距離 */
+  width: 160px; /* 按鈕寬度 */
+  /*height: 100px; /* 按鈕高度 */
+  height: auto;
+  opacity: 0.8; /* 按鈕原始透明度 */
+  z-index: 10;
+  cursor: pointer;
+}
+
+.messenger_2:hover { /* 滑鼠經過按鈕時 */
+  opacity: 1; /* 透明度 */
+}
+
+.platform-title {
+  font-size: 24px;
+  line-height: 35px;
+  font-weight: bold;
+  margin: 24px 0;
+  color: #fff;
+}
+
+.hover-overlay { /* 滑鼠經過按鈕時 */
+  opacity: 0.8; /* 按鈕原始透明度 */
+}
+
+.hover-overlay:hover { /* 滑鼠經過按鈕時 */
+  opacity: 1; /* 透明度 */
+}
+
+.com_image {
+  mix-blend-mode: multiply;
+}
+
+.title {
+  font-size: calc(1.525rem + 3.3vw);
+}
+@media (min-width: 1200px) {
+  .title {
+    font-size: 4rem;
+  }
+}
+
+.title {
+  font-size: calc(1.525rem + 3.3vw);
+}
+
+@media (min-width: 1200px) {
+  .title {
+    font-size: 4rem;
+  }
+}/*# sourceMappingURL=main.css.map */
