@@ -63,7 +63,7 @@ body {
   .background  {
     background-image: url(../image/kv_bg.jpg);
     position: relative;
-    height: 40vw;
+    /* height: 40vw; */
     background-color: #030542;
     background-repeat: no-repeat;
     background-position: center center;
@@ -90,6 +90,7 @@ body {
     padding-left: 8%;
     color: #fff;
     font-weight:bold;
+
   }
 
   .product{
@@ -231,4 +232,10 @@ body {
 
     .hover-overlay:hover { /* 滑鼠經過按鈕時 */
       opacity: 1; /* 透明度 */
+      }
+
+
+      .com_image{
+
+        mix-blend-mode: multiply;
       }
