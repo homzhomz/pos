@@ -70,7 +70,6 @@ body {
     background-position: center center;
     background-size: cover;
     margin-bottom: 5%;
-
   }
 
   .nav-link{
@@ -236,7 +235,7 @@ body {
       }
 
       .com_image{
-        mix-blend-mode: multiply;
+        mix-blend-mode: multiply; 
       }
 
       .com_image2{
