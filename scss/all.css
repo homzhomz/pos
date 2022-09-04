@@ -110,7 +110,7 @@ body {
   
   .sc_agenda {
     background-color: #d6d4d4;
-    height: 250px;
+    /* height: 250px; */
     margin-bottom: 5%;
 }
 
