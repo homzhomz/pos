@@ -240,7 +240,9 @@ body {
       }
 
       .com_image2{
-       
+       /* mix-blend-mode: screen;  */
+         /* mix-blend-mode: multiply; */
+        /* opacity:0.8; */
         filter: drop-shadow(8px 8px 10px rgb(116, 188, 230));
         
       }
